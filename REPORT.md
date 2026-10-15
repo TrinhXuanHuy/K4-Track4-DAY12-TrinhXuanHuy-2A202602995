@@ -72,3 +72,6 @@ PercMLP bị cổng phát hành chặn bởi 5 quy tắc: R2 (va chạm log hạ
 Chọn **ít nhất ba** giới hạn quan trọng nhất đối với việc quyết định phát hành và giải thích vì sao mỗi cái làm kết luận của bạn kém chắc chắn. Điều gì cần làm tiếp để thu hẹp khoảng cách đến thế giới thật?
 
 Bài lab tồn tại ba giới hạn cốt lõi ảnh hưởng trực tiếp đến quyết định phát hành. Thứ nhất, mô phỏng chỉ xét chuyển động 1 chiều dọc (1-D longitudinal) trên đường thẳng tuyệt đối ở tần số 10 Hz với bước thời gian 0.1 s, bỏ qua hoàn toàn động học xoay thân xe, trượt ngang và gia tốc góc khi chuyển làn thực tế. Thứ hai, xe dẫn trong log không phản ứng ngược lại với hành vi của xe thử nghiệm; trong thực tế, nếu xe sau tiếp cận quá gần hoặc phát tín hiệu, tài xế xe dẫn có thể nhả ga hoặc chuyển làn tránh va chạm. Thứ ba, mô hình giả định hệ thống cảm biến hoàn hảo và cơ cấu phanh chấp hành tức thì đến 9.0 m/s^2, bỏ qua giới hạn giật (jerk limit), độ trễ đường ống thủy lực phanh và nhiễu nhận thức thực tế (như mất dấu radar hoặc nhận diện nhầm). Để thu hẹp khoảng cách tới thế giới thực, bước tiếp theo cần triển khai mô phỏng 3D đa hướng độ trung thực cao (CARLA/CarMaker), đưa vào mô hình nhiễu cảm biến và kiểm thử phần cứng trong vòng lặp (Hardware-in-the-Loop - HIL) trước khi đưa lên xe thử nghiệm sa hình.
+
+---
+*Báo cáo hoàn thành bởi học viên: Trịnh Xuân Huy (MSSV: 2A202602995)*
